@@ -1,0 +1,44 @@
+:root{
+   --angle: 180deg;
+   --color1: #F2F2F2;
+   --color2: #D9D9D9;
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    background-image: linear-gradient(var(--angle),var(--color1),var(--color2));
+}
+
+main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+input[type='color'] {
+    border: 3px solid white;
+    width: 90px; max-width: 90px;
+    height: 10vh; min-height: 40px;
+    margin: 0 1%;
+    padding: 0;
+}
+
+#angleLabel {
+    display: block;
+    margin-top: 2%;
+}
+
+
+
+

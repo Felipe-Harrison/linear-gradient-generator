@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Background Generator</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Background Generator
+        </h1>
+        <div class="form-inputs">
+            <span id="input-container">
+                <input type="color" id="color1" value="#F2F2F2">
+                <input type="color" id="color2" value="#D9D9D9">
+            </span>
+            <div>
+                <label for="angle" id="angleLabel">180</label>
+                <input 
+                    type="range"
+                    id="angle" 
+                    value="180"
+                    step="10"
+                    min="0" 
+                    max="360">
+            </div>
+        </div>
+        <div class="background-description">
+            <h2>Current CSS background:</h2>
+            <p id="cssCode"></p>
+        </div>
+    </main>
+</body>
+</html>

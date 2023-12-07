@@ -1,4 +1,4 @@
-# Background Generator
+# Linear-gradient-generator
 Projeto para treinar Html, Css e Java Script, com foco em utilizar variaveis em Css
 
 # Objetivo:
